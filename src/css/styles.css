@@ -227,7 +227,7 @@ a {
   text-decoration: none;
   padding-right: 60px;
   color: #fff;
-  text-shadow: 2px 1px 3px gray;
+  text-shadow: 1px 1px 2px gray;
 }
 
 .navigation_ul li a:hover {
