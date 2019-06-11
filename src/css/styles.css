@@ -1,5 +1,92 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap");
 
+[data-aos="animation-opacity"] {
+  opacity: 0.2;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+[data-aos="animation-opacity"].aos-animate {
+  opacity: 1;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+.slide-left {
+  -webkit-animation: slide-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
+  animation: slide-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+.fade-in-bottom {
+  -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.6s
+    both;
+  animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.6s both;
+}
+
+.fade-in-bottom2 {
+  -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.6s
+    both;
+  animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.6s both;
+}
+
+.fade-in-bottom3 {
+  -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) 2.6s
+    both;
+  animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) 2.6s both;
+}
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -136,10 +223,9 @@ a {
 }
 
 .more_info:hover {
-  border-color: #fff;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background: #000;
+  background-color: #2c9dee;
 }
 
 .section_box_holder {
