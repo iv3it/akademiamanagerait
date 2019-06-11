@@ -169,6 +169,14 @@ a {
   height: 100vh;
 }
 
+.header_svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+}
+
 .banner_bg {
   position: absolute;
   height: 100%;
