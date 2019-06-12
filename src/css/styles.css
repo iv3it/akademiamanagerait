@@ -377,6 +377,7 @@ a {
 
 .navigation_ul_center {
   position: relative;
+  padding: 0 10px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
