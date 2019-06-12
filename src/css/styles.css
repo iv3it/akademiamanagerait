@@ -415,7 +415,7 @@ a {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   top: 50%;
-  left: 5%;
+  padding-left: 5%;
   padding-right: 5%;
   letter-spacing: 5px;
 }
@@ -801,6 +801,13 @@ a {
 
 .contact_href:hover {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .short_programme_description {
+    margin: 0 auto;
+    width: 60%;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
