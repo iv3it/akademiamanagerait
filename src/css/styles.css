@@ -814,7 +814,7 @@ a {
 
 @media only screen and (max-width: 420px) {
   .more_info {
-    bottom: 20%;
+    bottom: 15%;
   }
 
   .section_title {
