@@ -15,8 +15,9 @@
 }
 
 .slide-left {
-  -webkit-animation: slide-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
-  animation: slide-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
+  -webkit-animation: slide-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s
+    both;
+  animation: slide-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s both;
 }
 
 @-webkit-keyframes slide-left {
@@ -96,6 +97,10 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   background-color: rgb(8, 8, 8);
+}
+
+body .menu_open {
+  overflow: hidden;
 }
 
 html {
@@ -235,6 +240,148 @@ a {
   text-shadow: none;
 }
 
+.hamburger_menu {
+  position: fixed;
+  display: none;
+  top: 30px;
+  right: 30px;
+  z-index: 3;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.hamburger_menu .first,
+.hamburger_menu .second,
+.hamburger_menu .third {
+  border-top: 3px solid #1b8adb;
+  display: block;
+  -webkit-transition: margin 0.5s, -webkit-transform 0.5s;
+  transition: margin 0.5s, -webkit-transform 0.5s;
+  transition: margin 0.5s, transform 0.5s;
+  transition: margin 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  width: 40px;
+}
+
+.hamburger_menu .second {
+  margin: 10px 0;
+  border-top: 3px solid #1b8adb;
+  display: block;
+  -webkit-transition: margin 0.5s, -webkit-transform 0.5s;
+  transition: margin 0.5s, -webkit-transform 0.5s;
+  transition: margin 0.5s, transform 0.5s;
+  transition: margin 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  width: 40px;
+}
+
+.hamburger_menu .third {
+  border-top: 3px solid #1b8adb;
+  display: block;
+  -webkit-transition: margin 0.5s, -webkit-transform 0.5s;
+  transition: margin 0.5s, -webkit-transform 0.5s;
+  transition: margin 0.5s, transform 0.5s;
+  transition: margin 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  width: 40px;
+}
+
+.hamburger_menu.close_menu {
+  padding: 25px 0;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  z-index: 3;
+  opacity: 1;
+}
+
+.hamburger_menu.close_menu .first,
+.hamburger_menu.close_menu .second,
+.hamburger_menu.close_menu .third {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-top: 3px solid #1b8adb;
+}
+
+.hamburger_menu.close_menu .second {
+  margin: -3px 0;
+  opacity: 0;
+}
+
+.hamburger_menu.close_menu .third {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-top: 3px solid #1b8adb;
+}
+
+@media only screen and (min-width: 1550px) {
+  .navigation {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .hamburger_menu {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+
+.navigation_mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(8, 8, 8);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  z-index: 1;
+}
+
+.navigation_mobile.open {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 2;
+  opacity: 1;
+  pointer-events: all;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.navigation_mobile.open li {
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+.navigation_mobile.open li a {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.navigation_mobile.open li a:hover {
+  color: #1b8adb;
+  -webkit-transition: 0.25s ease-in;
+  transition: 0.25s ease-in;
+}
+
+.navigation_ul_center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .header {
   position: relative;
   height: 100vh;
@@ -280,6 +427,7 @@ a {
 }
 
 .subtitle {
+  padding-right: 10px;
   font-size: 23.5px;
   font-weight: 300;
   text-shadow: 2px 1px 3px gray;
@@ -393,6 +541,12 @@ a {
 #programme_box_6 {
   background-image: url("../img/app.jpg");
   background-position: top;
+}
+
+.short_programme_description {
+  font-size: 25px;
+  text-align: center;
+  color: #444444;
 }
 
 .box_description {
