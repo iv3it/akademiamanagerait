@@ -641,6 +641,14 @@ a {
   padding-top: 10px;
 }
 
+.contact_href {
+  color: #1b8adb;
+}
+
+.contact_href:hover {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1199px) {
   .section_box_left_border {
     padding: 0px 30px;
@@ -805,6 +813,10 @@ a {
 }
 
 @media only screen and (max-width: 420px) {
+  .more_info {
+    bottom: 20%;
+  }
+
   .section_title {
     font-size: 24px;
   }
