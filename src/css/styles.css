@@ -437,8 +437,7 @@ a {
 .more_info {
   position: absolute;
   text-transform: uppercase;
-  border: 3px solid #1b8adb;
-  padding: 10px 20px;
+  padding: 16px 20px;
   width: 250px;
   bottom: 30%;
   left: 5%;
@@ -551,7 +550,7 @@ a {
 }
 
 .box_description {
-  font-size: 21px;
+  font-size: 18px;
   color: #fff;
   font-weight: 600;
   text-align: center;
@@ -571,9 +570,9 @@ a {
 
 .box_btn {
   position: absolute;
-  border: 2px solid #1b8adb;
+  border: 2px solid #fafafa;
   border-radius: 0 55px;
-  color: #fff;
+  color: #fafafa;
   padding: 8px;
   bottom: 5px;
   text-align: center;
@@ -581,14 +580,16 @@ a {
   margin: 0 auto;
   text-transform: uppercase;
   font-weight: 500;
-  background-color: #1b8adb;
+  background-color: #181818;
   bottom: 20px;
   left: 12.5%;
+  transition: all 0.15s ease-in;
 }
 
 .box_btn:hover {
-  background-color: #2c9dee;
-  color: #fff;
+  background-color: #2c2c2c;
+  color: #181818;
+  color: #fafafa;
 }
 
 .about_instructor {
@@ -794,14 +795,20 @@ a {
 
 .organiser_telephone {
   padding-top: 10px;
+  font-size: 21px;
+}
+
+.organiser_email {
+  font-size: 21px;
 }
 
 .contact_href {
-  color: #1b8adb;
+  color: #5e5e5e;
 }
 
 .contact_href:hover {
   text-decoration: none;
+  color: #1b8adb;
 }
 
 @media only screen and (min-width: 1200px) {
