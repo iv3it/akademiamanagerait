@@ -804,6 +804,7 @@ a {
 
 .contact_href {
   color: #5e5e5e;
+  transition: all 0.2s ease;
 }
 
 .contact_href:hover {
