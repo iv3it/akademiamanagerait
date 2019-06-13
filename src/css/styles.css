@@ -723,11 +723,12 @@ a {
 }
 
 .organiser_details {
-  position: relative;
+  position: absolute;
   color: #fafafa;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+  right: 25%;
 }
 
 .organiser_img {
@@ -845,6 +846,18 @@ a {
   .instructor_description {
     padding: 25px 0 25px 70px;
   }
+
+  .organiser_telephone {
+    font-size: 18px;
+  }
+
+  .organiser_email {
+    font-size: 18px;
+  }
+
+  .organiser_subtitle::after {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -890,6 +903,7 @@ a {
 
   #mdaliga::after {
     left: calc(50% - 100px);
+    top: 35px;
   }
 
   .references_name {
@@ -899,6 +913,11 @@ a {
   .organiser_name {
     text-align: center;
     font-size: 30px;
+  }
+
+  .organiser_details {
+    position: relative;
+    right: unset;
   }
 
   .organiser_subtitle {
@@ -979,6 +998,10 @@ a {
 
   .section_title {
     font-size: 35px;
+  }
+
+  #mdaliga::after {
+    top: 55px;
   }
 }
 
