@@ -637,7 +637,7 @@ a {
   position: absolute;
   width: 280px;
   height: 280px;
-  border: 3px solid #535353;
+  border: 2px solid #535353;
   left: -15px;
   top: -15px;
   border-radius: 50%;
@@ -648,7 +648,7 @@ a {
   position: absolute;
   width: 280px;
   height: 280px;
-  border: 3px solid #3f3f3f;
+  border: 1px solid #3f3f3f;
   left: -10px;
   top: -10px;
   border-radius: 50%;
