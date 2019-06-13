@@ -232,7 +232,7 @@ a {
   text-decoration: none;
   padding-right: 60px;
   color: #fff;
-  text-shadow: 1px 1px 2px gray;
+  text-shadow: 1px 1px 1px gray;
 }
 
 .navigation_ul li a:hover {
@@ -606,7 +606,7 @@ a {
   width: 200px;
   height: 1px;
   top: 70px;
-  background-color: #202020;
+  background-color: #2a2a2a;
   right: 0px;
 }
 
@@ -616,7 +616,7 @@ a {
   width: 200px;
   height: 1px;
   top: 35px;
-  background-color: #202020;
+  background-color: #2a2a2a;
   right: 0px;
 }
 
@@ -708,7 +708,7 @@ a {
   width: 250px;
   height: 1px;
   top: 40px;
-  background-color: #202020;
+  background-color: #2a2a2a;
   left: 0;
 }
 
@@ -788,8 +788,8 @@ a {
   position: absolute;
   width: 250px;
   height: 1px;
-  bottom: 55px;
-  background-color: #202020;
+  bottom: 68px;
+  background-color: #2a2a2a;
   left: 0;
 }
 
