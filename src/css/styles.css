@@ -400,7 +400,7 @@ button:focus {
 }
 
 .banner_bg {
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 100%;
   background-image: url("https://images.unsplash.com/photo-1542822038-3a1810a5fb69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
