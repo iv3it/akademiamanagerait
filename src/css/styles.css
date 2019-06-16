@@ -1073,3 +1073,18 @@ button:focus {
     top: 55px;
   }
 }
+
+@media only screen and (max-height: 455px) {
+  .more_info {
+    bottom: 10%;
+  }
+
+  .titles {
+    top: 35%;
+    z-index: 1;
+  }
+
+  .navigation_mobile.open li a {
+    font-size: 20px;
+  }
+}
