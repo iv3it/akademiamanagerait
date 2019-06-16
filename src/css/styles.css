@@ -626,7 +626,7 @@ button:focus {
 
 .instructor_img {
   position: relative;
-  border-radius: 50%;
+  border-radius: 35%;
   width: 250px;
   height: 250px;
   background-position: center;
@@ -644,7 +644,7 @@ button:focus {
   border: 2px solid #535353;
   left: -15px;
   top: -15px;
-  border-radius: 50%;
+  border-radius: 35%;
 }
 
 .instructor_img::before {
@@ -655,7 +655,7 @@ button:focus {
   border: 1px solid #3f3f3f;
   left: -10px;
   top: -10px;
-  border-radius: 50%;
+  border-radius: 35%;
   opacity: 0.7;
 }
 
@@ -742,7 +742,7 @@ button:focus {
 
 .organiser_img {
   position: relative;
-  border-radius: 50%;
+  border-radius: 35%;
   width: 250px;
   height: 250px;
   background-position: center;
@@ -760,7 +760,7 @@ button:focus {
   border: 3px solid #535353;
   left: -15px;
   top: -15px;
-  border-radius: 50%;
+  border-radius: 35%;
 }
 
 .organiser_img::before {
@@ -771,7 +771,7 @@ button:focus {
   border: 3px solid #3f3f3f;
   left: -10px;
   top: -10px;
-  border-radius: 50%;
+  border-radius: 35%;
   opacity: 0.7;
 }
 
