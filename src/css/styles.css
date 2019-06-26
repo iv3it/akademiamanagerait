@@ -122,6 +122,7 @@ button:focus {
   margin: 0;
   padding: 30px 10%;
   text-align: right;
+  height: 120px;
 }
 
 .footer p {
