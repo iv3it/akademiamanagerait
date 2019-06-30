@@ -61,3 +61,15 @@ function closeMenu() {
   menu.removeClass("open");
   hamb.removeClass("close_menu");
 }
+
+// Hide / show description
+
+$("#programme_btn").on("click", function() {
+  $("#programme_description_holder").addClass("hide");
+  $("#programme_holder").removeClass("hide");
+});
+
+$("#description_btn").on("click", function() {
+  $("#programme_description_holder").removeClass("hide");
+  $("#programme_holder").addClass("hide");
+});

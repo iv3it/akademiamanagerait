@@ -69,12 +69,40 @@ button:focus {
   font-size: 11px;
 }
 
+.additional_info {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.additional_info_smaller {
+  color: #65656e;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.additional_info_bigger {
+  color: #fff;
+  font-size: 72px;
+  margin: 0;
+}
+
+.pdf_file img {
+  padding-top: 10px;
+}
+
 .section_holder {
   width: 100%;
 }
 
 .article_holder {
   width: 100%;
+}
+
+.hide {
+  display: none;
 }
 
 .container-fluid {
@@ -88,6 +116,10 @@ button:focus {
   text-align: center;
   font-weight: 600;
   padding: 50px 20px;
+}
+
+.menu {
+  padding: 30px 0;
 }
 
 .menu ul {
@@ -105,9 +137,9 @@ button:focus {
 }
 
 .programme_description_short {
-  padding: 55px 0px;
   font-size: 22px;
   color: #65656e;
+  padding-left: 0;
 }
 
 .programme_section {
