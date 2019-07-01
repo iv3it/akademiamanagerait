@@ -51,6 +51,20 @@ button:focus {
   padding: 40px;
 }
 
+.header_svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 1550px) {
+  .header_svg {
+    
+  }
+}
+
 .titles {
   position: relative;
   color: #fff;
@@ -75,7 +89,7 @@ button:focus {
 }
 
 .additional_info_smaller {
-  color: #fafafa;
+  color: #f6f8ff;
   font-size: 20px;
   margin: 0;
   padding: 10px;
@@ -93,6 +107,7 @@ button:focus {
 .additional_info_description {
   color: #65656e;
   text-align: center;
+  font-weight: 600;
 }
 
 .additional_info_price {
@@ -122,7 +137,7 @@ button:focus {
   position: relative;
   padding: 30px 10px;
   font-size: 14px;
-  color: #65656e;
+  color: #ababb0;
 }
 
 .pdf_file img {
@@ -179,6 +194,7 @@ button:focus {
 }
 
 .menu {
+  position: relative;
   padding: 40px 0 30px 0;
 }
 
@@ -186,20 +202,31 @@ button:focus {
   list-style-type: none;
   text-align: center;
   padding: 0;
+  font-size: 0;
 }
 
 .menu ul li {
   display: inline-block;
-  padding: 5px 10px;
-  color: #b3b3bd;
+  padding: 10px;
+  color: #f6f8ff;
   font-size: 20px;
   cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.menu ul li:hover {
+  border-bottom: 2px solid #757577;
+}
+
+.underline {
+  border-bottom: 2px solid #1b8adb;
 }
 
 .programme_description_short {
-  font-size: 22px;
-  color: #65656e;
+  font-size: 18px;
+  color: #ababb0;
   padding-left: 0;
+  font-weight: 600;
 }
 
 .programme_section {
@@ -207,17 +234,25 @@ button:focus {
 }
 
 .section_title {
-  font-size: 30px;
-  color: #b3b3bd;
+  font-size: 35px;
+  color: #f6f8ff;
 }
 
 .section_description {
-  font-size: 20px;
-  color: #65656e;
+  font-size: 18px;
+  color: #ababb0;
+  font-weight: 600;
 }
 
 .section_description p {
   padding: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ababb0;
+}
+
+#programme_holder .section_description p {
+  color: #f6f8ff;
 }
 
 .section_description ul {
@@ -227,4 +262,5 @@ button:focus {
 .footer p {
   text-align: right;
   padding: 20px;
+  color: #ababb0;
 }
