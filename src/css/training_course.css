@@ -41,6 +41,16 @@ button:focus {
   background-color: rgb(8, 8, 8);
 }
 
+.background_img {
+  background-image: url("https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.35) grayscale(1);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .logo_sages_header {
   position: relative;
   height: 25px;
@@ -57,11 +67,6 @@ button:focus {
   right: 0;
   width: 100%;
   height: auto;
-}
-
-@media only screen and (min-width: 1550px) {
-  .header_svg {
-  }
 }
 
 .titles {
@@ -194,6 +199,7 @@ button:focus {
 
 .article_holder {
   width: 100%;
+  z-index: 0;
 }
 
 .hide {
@@ -215,7 +221,7 @@ button:focus {
 
 .menu {
   position: relative;
-  padding: 40px 0 30px 0;
+  padding: 30px 0;
 }
 
 .menu ul {
@@ -279,8 +285,36 @@ button:focus {
   list-style-type: square;
 }
 
+.about_instructor {
+  padding: 30px 20px;
+}
+
+.instructor_description {
+  font-size: 18px;
+  color: #ababb0;
+  padding-left: 0;
+  font-weight: 600;
+  padding: 25px 0;
+}
+
+.instructor_name {
+  position: relative;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.instructor_name_2 {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(233, 233, 233);
+}
+
 .footer p {
+  position: relative;
   text-align: right;
   padding: 20px;
   color: #ababb0;
+  margin: 0;
 }
