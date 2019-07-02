@@ -13,6 +13,7 @@ $("#description_btn").on("click", function() {
   $("#description_btn").addClass("underline");
   $("#programme_btn").removeClass("underline");
   $("#instructor_btn").removeClass("underline");
+  AOS.refresh();
 });
 
 $("#programme_btn").on("click", function() {
@@ -22,6 +23,7 @@ $("#programme_btn").on("click", function() {
   $("#programme_btn").addClass("underline");
   $("#description_btn").removeClass("underline");
   $("#instructor_btn").removeClass("underline");
+  AOS.refresh();
 });
 
 $("#instructor_btn").on("click", function() {
@@ -31,4 +33,5 @@ $("#instructor_btn").on("click", function() {
   $("#instructor_btn").addClass("underline");
   $("#description_btn").removeClass("underline");
   $("#programme_btn").removeClass("underline");
+  AOS.refresh();
 });
