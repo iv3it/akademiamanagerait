@@ -184,7 +184,7 @@ button:focus {
   margin: 0 auto;
   text-transform: uppercase;
   font-weight: 600;
-  background-color: #1b8adb;
+  background-color: #4ea0c1;
   bottom: 20px;
   left: 12.5%;
   -webkit-transition: all 0.15s ease-in;
@@ -249,7 +249,7 @@ button:focus {
 }
 
 .underline {
-  border-bottom: 2px solid #1b8adb;
+  border-bottom: 2px solid #4ea0c1;
 }
 
 .programme_description_short {
