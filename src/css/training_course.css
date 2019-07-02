@@ -61,7 +61,6 @@ button:focus {
 
 @media only screen and (min-width: 1550px) {
   .header_svg {
-    
   }
 }
 
@@ -83,6 +82,10 @@ button:focus {
   font-size: 11px;
 }
 
+.top_boxes {
+  min-height: 225px;
+}
+
 .additional_info {
   text-align: center;
   padding: 30px 0;
@@ -100,14 +103,21 @@ button:focus {
 
 .additional_info_bigger {
   color: #fff;
-  font-size: 72px;
+  font-size: 55px;
   margin: 0;
 }
 
 .additional_info_description {
-  color: #65656e;
+  color: #74747c;
   text-align: center;
   font-weight: 600;
+}
+
+.additional_info_description_top {
+  color: #ababb0;
+  text-align: center;
+  font-weight: 600;
+  line-height: 0;
 }
 
 .additional_info_price {
@@ -121,6 +131,16 @@ button:focus {
   color: #fafafa;
   text-align: center;
   font-size: 16px;
+}
+
+.additional_info_cities a {
+  text-decoration: none;
+  color: #fafafa;
+  transition: 0.1s ease-in;
+}
+
+.additional_info_cities a:hover {
+  color: #757577;
 }
 
 .programme_details {
