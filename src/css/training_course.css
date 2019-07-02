@@ -33,6 +33,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 button:focus {
   outline: none;
 }
@@ -292,9 +296,8 @@ button:focus {
 .instructor_description {
   font-size: 18px;
   color: #ababb0;
-  padding-left: 0;
   font-weight: 600;
-  padding: 25px 0;
+  padding: 20px 0 40px 0;
 }
 
 .instructor_name {
@@ -317,4 +320,42 @@ button:focus {
   padding: 20px;
   color: #ababb0;
   margin: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .additional_info_bigger {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .top_boxes {
+    min-height: 160px;
+  }
+
+  .menu ul li {
+    display: block;
+  }
+
+  .underline {
+    width: 225px;
+    margin: 0 auto;
+  }
+
+  .menu ul li:hover {
+    width: 225px;
+    margin: 0 auto;
+  }
+
+  .programme_details {
+    margin: 20px 0;
+  }
+
+  .programme_details:nth-of-type(2) {
+    min-height: 275px;
+  }
+
+  .programme_details:nth-of-type(3) {
+    min-height: 290px;
+  }
 }
