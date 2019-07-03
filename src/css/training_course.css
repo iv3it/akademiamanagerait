@@ -245,11 +245,11 @@ button:focus {
 }
 
 .menu ul li:hover {
-  border-bottom: 2px solid #757577;
+  box-shadow: 0px -2px 0px #757577 inset;
 }
 
 .underline {
-  border-bottom: 2px solid #4ea0c1;
+  box-shadow: 0px -2px 0px #4ea0c1 inset;
 }
 
 .programme_description_short {
@@ -330,7 +330,8 @@ button:focus {
 
 @media only screen and (max-width: 767px) {
   .top_boxes {
-    min-height: 160px;
+    padding: 10px;
+    min-height: unset;
   }
 
   .menu ul li {
@@ -356,6 +357,25 @@ button:focus {
   }
 
   .programme_details:nth-of-type(3) {
-    min-height: 290px;
+    min-height: 330px;
+  }
+
+  .programme_title {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .title {
+    font-size: 13px;
+  }
+
+  .programme_section {
+    padding: 30px 0px;
+  }
+
+  .programme_title {
+    font-size: 27px;
+    padding: 30px 0px;
   }
 }
