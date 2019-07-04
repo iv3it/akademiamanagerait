@@ -548,6 +548,21 @@ button:focus {
   background-position: top;
 }
 
+#programme_box_7 {
+  background-image: url("../img/argue.jpg");
+  background-position: top;
+}
+
+#programme_box_8 {
+  background-image: url("../img/manager.jpg");
+  background-position: top;
+}
+
+#programme_box_9 {
+  background-image: url("../img/team2.jpg");
+  background-position: top;
+}
+
 .short_programme_description {
   font-size: 25px;
   text-align: center;
