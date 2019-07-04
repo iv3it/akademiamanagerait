@@ -674,11 +674,11 @@ button:focus {
 #instructor_5 {
   background-image: url("../img/bbroda.jpg");
 }
-
+/*
 #instructor_6 {
-  background-image: url("../img/mdaliga.jpg");
+  background-image: url("");
 }
-
+*/
 .instructor_description {
   color: #fafafa;
   font-weight: 600;
