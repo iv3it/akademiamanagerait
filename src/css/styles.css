@@ -620,26 +620,6 @@ button:focus {
   margin-top: 80px;
 }
 
-#llosin::after {
-  content: " ";
-  position: absolute;
-  width: 200px;
-  height: 1px;
-  top: 70px;
-  background-color: #2a2a2a;
-  right: 0px;
-}
-
-#mdaliga::after {
-  content: " ";
-  position: absolute;
-  width: 200px;
-  height: 1px;
-  top: 35px;
-  background-color: #2a2a2a;
-  right: 0px;
-}
-
 .instructor_img {
   position: relative;
   border-radius: 35%;
@@ -680,6 +660,22 @@ button:focus {
 }
 
 #instructor_2 {
+  background-image: url("../img/mdaliga.jpg");
+}
+
+#instructor_3 {
+  background-image: url("../img/afijewska.png");
+}
+
+#instructor_4 {
+  background-image: url("../img/smagda.jpg");
+}
+
+#instructor_5 {
+  background-image: url("../img/bbroda.jpg");
+}
+
+#instructor_6 {
   background-image: url("../img/mdaliga.jpg");
 }
 
@@ -895,19 +891,44 @@ button:focus {
   .organiser_email {
     font-size: 18px;
   }
-}
 
-@media only screen and (max-width: 767px) {
-  .subtitle {
-    font-size: 18px;
+  #instructor_1,
+  #instructor_2,
+  #instructor_3,
+  #instructor_4,
+  #instructor_5,
+  #instructor_6 {
+    margin: 0 auto;
   }
 
-  .section_box_left_border {
-    padding: 0px 10px;
+  .instructor_img {
+    width: 200px;
+    height: 200px;
   }
 
-  .section_box_right_border {
-    padding: 0px 10px;
+  .instructor_img::before {
+    width: 230px;
+    height: 230px;
+  }
+
+  .instructor_img::after {
+    width: 230px;
+    height: 230px;
+  }
+
+  .organiser_img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .organiser_img::before {
+    width: 230px;
+    height: 230px;
+  }
+
+  .organiser_img::after {
+    width: 230px;
+    height: 230px;
   }
 
   .instructor_wrapper {
@@ -932,15 +953,19 @@ button:focus {
     text-align: center;
     padding: 25px 0;
   }
+}
 
-  #llosin::after {
-    left: calc(50% - 100px);
-    top: 55px;
+@media only screen and (max-width: 767px) {
+  .subtitle {
+    font-size: 18px;
   }
 
-  #mdaliga::after {
-    left: calc(50% - 100px);
-    top: 35px;
+  .section_box_left_border {
+    padding: 0px 10px;
+  }
+
+  .section_box_right_border {
+    padding: 0px 10px;
   }
 
   .references_name {
@@ -972,47 +997,9 @@ button:focus {
     text-align: center;
   }
 
-  #instructor_1 {
-    margin: 0 auto;
-  }
-
-  #instructor_2 {
-    margin: 0 auto;
-  }
-
   #organiser {
     margin: 0 auto;
     margin-top: 20px;
-  }
-
-  .instructor_img {
-    width: 200px;
-    height: 200px;
-  }
-
-  .instructor_img::before {
-    width: 230px;
-    height: 230px;
-  }
-
-  .instructor_img::after {
-    width: 230px;
-    height: 230px;
-  }
-
-  .organiser_img {
-    width: 200px;
-    height: 200px;
-  }
-
-  .organiser_img::before {
-    width: 230px;
-    height: 230px;
-  }
-
-  .organiser_img::after {
-    width: 230px;
-    height: 230px;
   }
 
   .contact_sages {
@@ -1072,14 +1059,6 @@ button:focus {
   .organiser_telephone,
   .organiser_email {
     font-size: 15px;
-  }
-
-  #llosin::after {
-    top: 42px;
-  }
-
-  #mdaliga::after {
-    top: 55px;
   }
 }
 
