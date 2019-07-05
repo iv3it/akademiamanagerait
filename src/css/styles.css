@@ -443,7 +443,7 @@ button:focus {
   text-transform: uppercase;
   padding: 16px 20px;
   width: 250px;
-  bottom: 30%;
+  bottom: 20%;
   left: 5%;
   cursor: pointer;
   text-align: center;
@@ -1017,7 +1017,7 @@ button:focus {
   }
 
   .more_info {
-    bottom: 25%;
+    bottom: 15%;
   }
 
   .section_title {
@@ -1031,7 +1031,6 @@ button:focus {
 
 @media only screen and (max-width: 420px) {
   .more_info {
-    bottom: 15%;
     width: 210px;
     font-size: 13px;
   }
