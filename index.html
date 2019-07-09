@@ -1,765 +1,829 @@
 <!DOCTYPE html>
 <html lang="pl">
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="theme-color" content="#080808" />
-  <title>Akademia menedżera IT</title>
-  <meta name="description" content="Program rozwoju kompetencji ekspertów IT" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" media="screen" href="src/css/styles.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <script src="src/js/jquery-3.4.1.min.js"></script>
-</head>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NWQP2G');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#080808" />
+    <title>Akademia menedżera IT</title>
+    <meta name="description" content="Program rozwoju kompetencji ekspertów IT" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="src/js/jquery-3.4.1.min.js"></script>
+  </head>
 
-<body>
-  <div class="wrapper">
-    <header class="col-xs-12 header" id="stronaglowna">
-      <div class="banner_bg"></div>
-      <img class="logo_sages_header" src="src/img/logosages.png" alt="logo sages" data-aos="animation-opacity" />
-      <div class="titles">
-        <h1 class="title fade-in-bottom">Akademia menedżera IT</h1>
-        <h2 class="subtitle fade-in-bottom2">Program rozwoju kompetencji ekspertów IT</h2>
-      </div>
-      <a href="#program">
-        <button class="more_info fade-in-bottom3">Chcę wiedzieć więcej</button>
-      </a>
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-        preserveAspectRatio="xMidYMid meet" viewBox="0 0 700 250" width="700" height="250" class="header_svg">
-        <defs>
-          <path
-            d="M700 250L159.86 250C240.41 248.89 309.25 232.85 366.38 201.88C385.05 191.76 403.57 178.98 421.93 163.53C489.98 106.3 577.51 77.56 666.24 83.32C670.74 83.61 681.99 84.34 700 85.51L700 250Z"
-            id="cayv6po5f"></path>
-        </defs>
-        <g>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWQP2G"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="wrapper">
+      <header class="col-xs-12 header" id="stronaglowna">
+        <div class="banner_bg"></div>
+        <img class="logo_sages_header" src="src/img/logosages.png" alt="logo sages" data-aos="animation-opacity" />
+        <div class="titles">
+          <h1 class="title fade-in-bottom">Akademia menedżera IT</h1>
+          <h2 class="subtitle fade-in-bottom2">Program rozwoju kompetencji ekspertów IT</h2>
+        </div>
+        <a href="#program">
+          <button class="more_info fade-in-bottom3">Chcę wiedzieć więcej</button>
+        </a>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          preserveAspectRatio="xMidYMid meet" viewBox="0 0 700 250" width="700" height="250" class="header_svg">
+          <defs>
+            <path
+              d="M700 250L159.86 250C240.41 248.89 309.25 232.85 366.38 201.88C385.05 191.76 403.57 178.98 421.93
+              163.53C489.98 106.3 577.51 77.56 666.24 83.32C670.74 83.61 681.99 84.34 700 85.51L700 250Z"
+              id="cayv6po5f"></path>
+          </defs>
           <g>
             <g>
-              <use xlink:href="#cayv6po5f" opacity="1" fill="#080808" fill-opacity="1"></use>
               <g>
-                <use xlink:href="#cayv6po5f" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
-                  stroke-opacity="1"></use>
+                <use xlink:href="#cayv6po5f" opacity="1" fill="#080808" fill-opacity="1"></use>
+                <g>
+                  <use xlink:href="#cayv6po5f" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
+                    stroke-opacity="1"></use>
+                </g>
               </g>
             </g>
           </g>
-        </g>
-      </svg>
-    </header>
-    <nav class="navigation">
-      <ul class="navigation_ul slide-left">
-        <li>
-          <a href="#stronaglowna">Strona główna</a>
-        </li>
-        <li>
-          <a href="#program">Program</a>
-        </li>
-        <li>
-          <a href="#wykladowcy">Wykładowcy</a>
-        </li>
-        <li>
-          <a href="#referencje">Referencje</a>
-        </li>
-        <li>
-          <a href="#kontakt">Kontakt</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="hamburger_menu">
-      <span class="first"></span>
-      <span class="second"></span>
-      <span class="third"></span>
-    </div>
-    <nav class="navigation_mobile">
-      <ul class="navigation_ul_center">
-        <li>
-          <a href="#stronaglowna">Strona główna</a>
-        </li>
-        <li>
-          <a href="#program">Program</a>
-        </li>
-        <li>
-          <a href="#wykladowcy">Wykładowcy</a>
-        </li>
-        <li>
-          <a href="#referencje">Referencje</a>
-        </li>
-        <li>
-          <a href="#kontakt">Kontakt</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="container-fluid">
-      <div class="row">
-        <section class="col-xs-12 section_box_holder" id="program">
-          <div class="section_box_left_border">
-            <h3 class="section_title" data-aos="animation-opacity">
-              Dwudniowe szkolenia
-            </h3>
-            <p class="short_programme_description" data-aos="animation-opacity">Profesjonalny program rozwoju
-              kompetencji gwarantujący wzrost efektywności działań doświadczonych specjalistów / menedżerów IT</p>
-            <article class="programme_boxes_holder">
-              <div class="row">
-                <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
-                  <a
-                    href="szkolenia/zarzadzanie_portfelem.html">
-                    <div class="box_programme">
-                      <div class="programme_box" id="programme_box_1">
-                        <div class="programme_box_color_bg"></div>
-                        <div class="col-sm-12 box_text_bg">
-                          <p class="col-xs-12 box_description">
-                            Zarządzanie portfelem inicjatyw biznesowych -
-                            holistyczne spojrzenie na zmiany w IT
-                          </p>
-                          <button class="col-xs-12 box_btn">Więcej</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </section>
-                <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
-                  <a
-                    href="szkolenia/zarzadzanie_komunikacja.html">
-                    <div class="box_programme">
-                      <div class="programme_box" id="programme_box_2">
-                        <div class="programme_box_color_bg"></div>
-                        <div class="col-sm-12 box_text_bg">
-                          <p class="col-xs-12 box_description">
-                            Skuteczne zarządzanie komunikacją i przywództwo w
-                            projektach i programach IT
-                          </p>
-                          <button class="col-xs-12 box_btn">Więcej</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </section>
-                <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
-                  <a
-                    href="szkolenia/myslenie_analityczne.html">
-                    <div class="box_programme">
-                      <div class="programme_box" id="programme_box_3">
-                        <div class="programme_box_color_bg"></div>
-                        <div class="col-sm-12 box_text_bg">
-                          <p class="col-xs-12 box_description">
-                            Techniki myślenia analitycznego i podejmowanie
-                            decyzji biznesowych w obszarze IT
-                          </p>
-                          <button class="col-xs-12 box_btn">Więcej</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </section>
-                <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
-                  <a
-                    href="szkolenia/techniki_i_narzedzia_lean_it.html">
-                    <div class="box_programme">
-                      <div class="programme_box" id="programme_box_4">
-                        <div class="programme_box_color_bg"></div>
-                        <div class="col-sm-12 box_text_bg">
-                          <p class="col-xs-12 box_description">
-                            Praktyczne wykorzystanie technik i narzędzi Lean
-                            IT do rozwiązywania problemów
-                          </p>
-                          <button class="col-xs-12 box_btn">Więcej</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </section>
-                <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
-                  <a href="szkolenia/motywacja_4_0.html">
-                    <div class="box_programme">
-                      <div class="programme_box" id="programme_box_5">
-                        <div class="programme_box_color_bg"></div>
-                        <div class="col-sm-12 box_text_bg">
-                          <p class="col-xs-12 box_description">
-                            Motywacja 4.0
-                          </p>
-                          <button class="col-xs-12 box_btn">Więcej</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </section>
-                <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
-                  <a href="szkolenia/projektowanie_produktow_i_uslug_it.html">
-                    <div class="box_programme">
-                      <div class="programme_box" id="programme_box_6">
-                        <div class="programme_box_color_bg"></div>
-                        <div class="col-sm-12 box_text_bg">
-                          <p class="col-xs-12 box_description">
-                            Projektowanie innowacyjnych produktów i usług IT
-                          </p>
-                          <button class="col-xs-12 box_btn">Więcej</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </section>
-                <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
-                  <a href="szkolenia/zarzadzanie_konfliktem.html">
-                    <div class="box_programme">
-                      <div class="programme_box" id="programme_box_7">
-                        <div class="programme_box_color_bg"></div>
-                        <div class="col-sm-12 box_text_bg">
-                          <p class="col-xs-12 box_description">
-                            Zarządzanie konfliktem
-                          </p>
-                          <button class="col-xs-12 box_btn">Więcej</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </section>
-                <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
-                  <a href="szkolenia/od_kodera_do_managera.html">
-                    <div class="box_programme">
-                      <div class="programme_box" id="programme_box_8">
-                        <div class="programme_box_color_bg"></div>
-                        <div class="col-sm-12 box_text_bg">
-                          <p class="col-xs-12 box_description">
-                            Od Kodera do Managera
-                          </p>
-                          <button class="col-xs-12 box_btn">Więcej</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </section>
-                <section class="col-xs-12 col-sm-12 col-md-4" data-aos="animation-opacity">
-                  <a href="szkolenia/budowanie_efektywnych_zespolow.html">
-                    <div class="box_programme">
-                      <div class="programme_box" id="programme_box_9">
-                        <div class="programme_box_color_bg"></div>
-                        <div class="col-sm-12 box_text_bg">
-                          <p class="col-xs-12 box_description">
-                            Budowanie efektywnych zespołów
-                          </p>
-                          <button class="col-xs-12 box_btn">Więcej</button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </section>
-              </div>
-            </article>
-          </div>
-        </section>
-        <div class="col-xs-12 section_divider" id="section_divider1">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_top">
-            <defs>
-              <path
-                d="M0 184.78L0 156.52C75.05 140.34 154.39 134.06 238.01 137.68C280.31 139.51 327.34 144.03 379.1 151.21C469.6 163.78 561.69 158.2 650 134.78C650 134.78 650 134.78 650 134.78L650 184.78L0 184.78Z"
-                id="b2k0V9iWvA"></path>
-              <path
-                d="M650 0L650 28.26C574.95 44.44 495.61 50.72 411.99 47.1C369.69 45.27 322.66 40.76 270.9 33.57C180.4 21 88.31 26.58 0 50C0 50 0 50 0 50L0 0L650 0Z"
-                id="f1JXrZaty7"></path>
-            </defs>
-            <g>
-              <g>
-                <g>
-                  <use xlink:href="#b2k0V9iWvA" opacity="1" fill="#080808" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#b2k0V9iWvA" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-                <g>
-                  <use xlink:href="#f1JXrZaty7" opacity="1" fill="#080808" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#f1JXrZaty7" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_bottom">
-            <defs>
-              <path
-                d="M0 50L0 21.74C75.05 5.56 154.39 -0.72 238.01 2.9C280.31 4.73 327.34 9.24 379.1 16.43C469.6 29 561.69 23.42 650 0C650 0 650 0 650 0L650 50L0 50Z"
-                id="a2iGjTgE7h"></path>
-              <path
-                d="M654.36 290.04L654.36 261.78C579.31 245.59 499.97 239.31 416.34 242.93C374.05 244.77 327.02 249.28 275.26 256.47C184.76 269.04 92.67 263.45 4.36 240.04C4.36 240.04 4.36 240.04 4.36 240.04L4.36 290.04L654.36 290.04Z"
-                id="d4XDnVs8th"></path>
-            </defs>
-            <g>
-              <g>
-                <g>
-                  <use xlink:href="#a2iGjTgE7h" opacity="1" fill="#181818" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#a2iGjTgE7h" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-                <g>
-                  <use xlink:href="#d4XDnVs8th" opacity="1" fill="#181818" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#d4XDnVs8th" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </div>
-        <section class="col-xs-12 section_box_holder" id="wykladowcy">
-          <div class="section_box_right_border">
-            <h3 class="section_title" data-aos="animation-opacity">
-              Wykładowcy
-            </h3>
-            <section class="col-xs-12 instructor_wrapper" id="instructor_wrapper_after">
-              <div class="row">
-                <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
-                  <div class="instructor_img" id="instructor_1"></div>
-                </div>
-                <div class="col-xs-12 col-lg-8 about_instructor">
-                  <div class="instructor_name" id="llosin" data-aos="animation-opacity">
-                    Łukasz Łosin
-                  </div>
-                  <div class="instructor_description" data-aos="animation-opacity">
-                    Praktyk w dziedzinie zarządzania zespołem, analizie
-                    biznesowej oraz business development’cie i wykorzystaniu
-                    technik projektowania i wdrażania nowych produktów i
-                    usług. Przez ostatnie kilkanaście lat zdobywał
-                    doświadczenie w Polsce i zagranicą w projektach IT i nie
-                    tylko. Jest przekonany, że w dobie rynku pracownika
-                    wyzwaniem dla menedżera staje się ciągły rozwój swoich
-                    kompetencji oraz dobór odpowiednich narzędzi w celu
-                    utrzymania zaangażowania i efektywności swoich zespołów,
-                    czego uczył szkoląc zespoły projektowe i wytwórcze IT
-                    wielu banków, instytucji finansowych oraz firm doradczych.
-                    Opiekun merytoryczny i wykładowca na studiach
-                    podyplomowych „User Experience i projektowanie aplikacji,
-                    produktów i usług” w Wyższej Szkole Bankowej w Gdańsku
-                    oraz wykładowcy na Uniwersytecie Gdańskim z tematu
-                    "Psychologia przywództwa w organizacji". Współautor
-                    książki „Inżynieria wymagań”, wydanej przez PWN w 2018
-                    roku - w swym rozdziale skupił się nad problematyką
-                    organizacji pracy, podnoszenia efektywności i motywacji
-                    zespołów projektowo/programistycznych w Scrum.
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="col-xs-12 instructor_wrapper">
-              <div class="row">
-                <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
-                  <div class="instructor_img" id="instructor_2"></div>
-                </div>
-                <div class="col-xs-12 col-lg-8 about_instructor">
-                  <div class="instructor_name" data-aos="animation-opacity">
-                    Martin Daliga
-                  </div>
-                  <div class="instructor_name_2" id="mdaliga" data-aos="animation-opacity">
-                    PhD, MBA, P2P, MsP, MoP, MoR, MoV, REQB, IBAQB, PO, PSM I.
-                  </div>
-                  <div class="instructor_description" data-aos="animation-opacity">
-                    Jako propagator przywództwa sytuacyjnego Kennetha
-                    Blancharda skutecznie zarządzał zespołami
-                    interdyscyplinarnymi. Na przestrzeni ostatnich kilkunastu
-                    lat pracował z zespołami realizującymi projekty o
-                    budżetach sięgających ponad 20 mln zł. Pełnił szereg
-                    funkcji i ról w największych przedsiębiorstwach m.in w
-                    Telekomunikacji Polskiej, Polkomtelu, Asseco Poland,
-                    Kolejowych Zakładach Łączności. W lutym 2017 roku został
-                    laureatem konkursu Biznesmen Roku 2016, organizowanego
-                    przez Izbę Przemysłowo-Handlową województwa
-                    Kujawsko-Pomorskiego. Nagroda jest uznaniem za wkład i
-                    osobiste zaangażowanie w rozwój samorządu gospodarczego
-                    Pomorza i Kujaw. Najbardziej dumny jest z udziału swojego
-                    zespołu w projektach związanych z optymalizacją procesów
-                    biznesowych i zwiększaniem ich konkurencyjności. Posiada
-                    ponad 10 letnią praktykę trenerską w kreowaniu wartości
-                    biznesowych i zarządzania ograniczeniami.
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="col-xs-12 instructor_wrapper">
-              <div class="row">
-                <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
-                  <div class="instructor_img" id="instructor_3"></div>
-                </div>
-                <div class="col-xs-12 col-lg-8 about_instructor">
-                  <div class="instructor_name" data-aos="animation-opacity">
-                    Agata Fijewska
-                  </div>
-                  <div class="instructor_description" data-aos="animation-opacity">
-                    Psycholog, ukończyła Wyższą Szkołę Psychologii Społecznej; Trener, ukończyła Szkołę Treningu i Warsztatu Psychologicznego w Ośrodku Pomocy i Psychoedukacji Intra. Pracuje jako terapeuta indywidualny i grupowy. Specjalizuje się w prowadzeniu warsztatów umiejętności z zakresu komunikacji,współpracy grupowej, asertywność, radzenie sobie ze stresem, oraz twórczego myślenia.
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="col-xs-12 instructor_wrapper">
-              <div class="row">
-                <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
-                  <div class="instructor_img" id="instructor_4"></div>
-                </div>
-                <div class="col-xs-12 col-lg-8 about_instructor">
-                  <div class="instructor_name" data-aos="animation-opacity">
-                    Sebastian Magda
-                  </div>
-                  <div class="instructor_description" data-aos="animation-opacity">
-                    Wieloletni praktyk zarządzania i trener z zakresu inżynierii wytwarzania oprogramowania, a w szczególności: zarządzania projektami IT oraz PMO,  zapewniania jakości wytwarzania oprogramowania,testowania oprogramowania •	Zarządzania zespołami, wdrożeniowiec oraz audytor CMMI  Posiada unikalne doświadczenie międzynarodowe, pracował m.in. w: USA, UK, Belgii, Holandii, Hiszpanii, Portugalii, Indiach, RPA, Niemczech, Szwajcarii, Białorusi, Ukrainie, Gruzji. Jest jednym z nielicznych w Polsce praktyków i ekspertów CMMI. Ekspert w zakresie procesów korporacyjnych systemów zarządzania projektami i jakością, w szczególności z dziedziny IT. Wykwalifikowany członek zespołów audytujących metodologią SCAMPI.  Posiadł certyfikat PMP kiedy egzaminowano jeszcze papierowo  Posiada również inne certyfikaty techniczne, m.in. Oracle, Sybase, ITIL, a także przeszedł wiele szkoleń zakończonych egzaminami  Software Engineering Institute w zakresie CMMI. Ma duże doświadczenie w prowadzeniu projektów międzynarodowych oraz łatwo nawiązuje kontakty międzyludzkie, posiada praktyczną wiedzę w pracy z różnymi kulturami. Mówi biegle 3 językami obcymi. Od ponad 20 lat związany z produkcją oprogramowania w rolach od programisty do kierownika do spraw wdrożeń procesów i zapewniania jakości, poprzez role kierownika projektów czy inżyniera ds. zapewniania jakości, ostatnio pracował z sukcesem nad startupami oraz projektami czysto biznesowymi. Obecnie zajmuje się również konsultingiem, oraz szkoleniami. Jego niezaprzeczalnym atutem jest wyjątkowa skalowalność i praktyczna znajomość tematyki zarówno menadżerskiej jak i technicznej, a co za tym idzie, łatwość mapowania jej na modele i odwrotnie. Jako ciekawostkę można podać, iż posiada on kilkunastoletnie doświadczenie w prowadzeniu projektów technologicznych dla loterii narodowych w Hiszpanii, Portugalii, Rep. Haiti, Białorusi, Gruzji oraz Ukrainy. Z wykształcenia informatyk-programista, z zamiłowania humanista. Prywatnie uważa, że studia MBA powinny być wykładane na historii a nie w szkole biznesu, sam jest posiadaczem dyplomu MBA. Lubi dzielić się wiedzą i rozwiązywać nietuzinkowe problemy na pograniczu technologii i psychologii. Lubi szkolić oraz pomagać organizacjom jako niezależny konsultant.
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="col-xs-12 instructor_wrapper">
-              <div class="row">
-                <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
-                  <div class="instructor_img" id="instructor_5"></div>
-                </div>
-                <div class="col-xs-12 col-lg-8 about_instructor">
-                  <div class="instructor_name" data-aos="animation-opacity">
-                    Bartosz Broda
-                  </div>
-                  <div class="instructor_description" data-aos="animation-opacity">
-                    Zarządza zespołami od ok. 7 lat. Zarządzał zespołami naukowymi (od 3-15 osób), koordynował pracę zespołów. Tematem przywództwa pasjonuje się od kilku lat. Obecnie pełni rolę kierownika zespołów i projektów w międzynarodowej korporacji. Oprócz doktoratu z informatyki, ukończył podyplomowe studium coachingu na SWPS, dzięki któremu poznał mechanizmy psychologiczne wpływające na zachowania ludzi i grupy. Uczestniczył w kilkunastu warsztatach związanych z przywództwem i kierowaniem zespołów.
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="col-xs-12 instructor_wrapper">
-              <div class="row">
-                <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
-                  <!--<div class="instructor_img" id="instructor_6"></div>-->
-                </div>
-                <div class="col-xs-12 col-lg-8 about_instructor">
-                  <div class="instructor_name" data-aos="animation-opacity">
-                    Dominika Miodońska
-                  </div>
-                  <div class="instructor_description" data-aos="animation-opacity">
-                    Coach, trener rozwoju osobistego. Posiada dziesięcioletnie doświadczenie w biznesie, zdobywane na stanowiskach menadżerskich w działach sprzedaży oraz marketingu. W aspekcie zarządzania zespołami szczególnie interesuje się tematami komunikacji interpersonalnej, motywacji wewnętrznej, zaangażowania. Zagadnienia te były niejednokrotnie tematem pracy z pracownikami oraz klientami sesji coachingowych oraz uczestnikami warsztatów.
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </section>
-        <div class="col-xs-12 section_divider" id="section_divider2">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_top">
-            <defs>
-              <path
-                d="M0 184.78L0 156.52C75.05 140.34 154.39 134.06 238.01 137.68C280.31 139.51 327.34 144.03 379.1 151.21C469.6 163.78 561.69 158.2 650 134.78C650 134.78 650 134.78 650 134.78L650 184.78L0 184.78Z"
-                id="b2k0V9iWvA"></path>
-              <path
-                d="M650 0L650 28.26C574.95 44.44 495.61 50.72 411.99 47.1C369.69 45.27 322.66 40.76 270.9 33.57C180.4 21 88.31 26.58 0 50C0 50 0 50 0 50L0 0L650 0Z"
-                id="f1JXrZaty7"></path>
-            </defs>
-            <g>
-              <g>
-                <g>
-                  <use xlink:href="#b2k0V9iWvA" opacity="1" fill="#181818" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#b2k0V9iWvA" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-                <g>
-                  <use xlink:href="#f1JXrZaty7" opacity="1" fill="#181818" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#f1JXrZaty7" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_bottom">
-            <defs>
-              <path
-                d="M0 50L0 21.74C75.05 5.56 154.39 -0.72 238.01 2.9C280.31 4.73 327.34 9.24 379.1 16.43C469.6 29 561.69 23.42 650 0C650 0 650 0 650 0L650 50L0 50Z"
-                id="a2iGjTgE7h"></path>
-              <path
-                d="M654.36 290.04L654.36 261.78C579.31 245.59 499.97 239.31 416.34 242.93C374.05 244.77 327.02 249.28 275.26 256.47C184.76 269.04 92.67 263.45 4.36 240.04C4.36 240.04 4.36 240.04 4.36 240.04L4.36 290.04L654.36 290.04Z"
-                id="d4XDnVs8th"></path>
-            </defs>
-            <g>
-              <g>
-                <g>
-                  <use xlink:href="#a2iGjTgE7h" opacity="1" fill="#080808" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#a2iGjTgE7h" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-                <g>
-                  <use xlink:href="#d4XDnVs8th" opacity="1" fill="#080808" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#d4XDnVs8th" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </div>
-        <section class="col-xs-12 section_box_holder" id="referencje">
-          <div class="section_box_left_border">
-            <h3 class="section_title" data-aos="animation-opacity">
-              Referencje
-            </h3>
-            <div class="row">
-              <div class="col-xs-12">
-                <section class="references_details">
-                  <div class="references_name" data-aos="animation-opacity">
-                    ZETO SOFTWARE Sp. z o.o.
-                  </div>
-                  <h4 class="references_subtitle" data-aos="animation-opacity">
-                    Olsztyn, 13.05.2019
-                  </h4>
-                  <div class="references_description" data-aos="animation-opacity">
-                    „Współpraca z firmą Sages rozpoczęła się w ramach projektu
-                    „Akademia Menedżera IT". Usługa dotyczyła dedykowanego
-                    szkolenia pracowników ZETO Software z zakresu Zarządzania
-                    zespołem, komunikacji oraz motywacji. Szkolenie zostało
-                    dostosowane do naszych potrzeb i obejmowało najbardziej
-                    interesujące treści.
-                    <br />
-                    <br />
-                    Uczestnicy szkolenia - warsztatów poznali i przećwiczyli:
-                    <br />
-                    - w jaki sposób organizować pracę, delegować i wyceniać
-                    zadania, aby motywować zespół;
-                    <br />
-                    - metody lepszej komunikacji z zespołem i
-                    współpracownikami;
-                    <br />
-                    - jak wykorzystać elementy zwinnego zarządzania w celu
-                    poprawy motywacji, zaangażowania i kreatywności zespołu;
-                    <br />
-                    - jak tworzyć system motywacyjny w organizacji;
-                    <br />
-                    - jak wyznaczać cele możliwe do osiągnięcia uwzględniając
-                    charakterystykę zespołu.
-                    <br />
-                    <br />
-                    Szkolenie uzyskało z naszej strony wysokie noty, a to
-                    skutkowało decyzją rozszerzenia współpracy z firmą Sages.
-                    Na szczególne wyróżnienie zasługuje trener, pan Łukasz
-                    Łosin, który za każdym razem odznaczał się dogłębną
-                    znajomością tematu oraz wysokim zaangażowaniem.
-                    <br />
-                    <br />
-                    Sages jest wg nas firmą godną polecenia oraz gwarantuje
-                    partnerskie podejście do realizacji projektów."
-                    <br />
-                    <br />
-                    <span class="reference_author">Prezes Zarządu Agnieszka Władzińska</span>
-                  </div>
-                </section>
-              </div>
-              <div class="col-xs-12">
-                <section class="references_details">
-                  <div class="references_name" data-aos="animation-opacity">
-                    ZETO SOFTWARE Sp. z o.o.
-                  </div>
-                  <h4 class="references_subtitle" data-aos="animation-opacity">
-                    Olsztyn, 13.05.2019
-                  </h4>
-                  <div class="references_description" data-aos="animation-opacity">
-                    „Współpraca z firmą Sages rozpoczęła się w ramach projektu
-                    „Akademia Menedżera IT". Usługa dotyczyła dedykowanego
-                    szkolenia pracowników ZETO Software z zakresu Zarządzania
-                    zespołem, komunikacji oraz motywacji. Szkolenie zostało
-                    dostosowane do naszych potrzeb i obejmowało najbardziej
-                    interesujące treści.
-                    <br />
-                    <br />
-                    Pozytywne doświadczenia oraz profesjonalne podejście firmy
-                    Sages przyczyniły się do zlecenia realizacji usługi
-                    wsparcia przy usprawnieniu procesów w wybranych działach
-                    ZETO Software. Projekt rozpoczęliśmy od rzetelnej analizy
-                    stanu obecnego, której wynikiem były wnioski,
-                    spostrzeżenia i sugestie wraz z rekomendacjami usprawnień
-                    i obszarów do doskonalenia. Trener — pan Łukasz Łosin — w
-                    trakcie dwudniowego wywiadu pozyskał komplet danych
-                    pozwalających na rzetelną ocenę jakości komunikacji
-                    pomiędzy poszczególnymi komórkami firmy oraz ich
-                    menedżerami.
-                    <br />
-                    <br />
-                    Współpracę oceniamy bardzo dobrze, a wyniki wywiadu w
-                    postaci precyzyjnych czynności zaradczych zostały wpisane
-                    do oficjalnej listy celów firmy ZETO Software na 2019 rok.
-                    Tym samym wnioski uzyskane przez trenera przełożyły się na
-                    zdefiniowanie mierzalnych celów firmy."
-                    <br />
-                    <br />
-                    <span class="reference_author">Prezes Zarządu Agnieszka Władzińska</span>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="col-xs-12 section_divider" id="section_divider3">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_top">
-            <defs>
-              <path
-                d="M0 184.78L0 156.52C75.05 140.34 154.39 134.06 238.01 137.68C280.31 139.51 327.34 144.03 379.1 151.21C469.6 163.78 561.69 158.2 650 134.78C650 134.78 650 134.78 650 134.78L650 184.78L0 184.78Z"
-                id="b2k0V9iWvA"></path>
-              <path
-                d="M650 0L650 28.26C574.95 44.44 495.61 50.72 411.99 47.1C369.69 45.27 322.66 40.76 270.9 33.57C180.4 21 88.31 26.58 0 50C0 50 0 50 0 50L0 0L650 0Z"
-                id="f1JXrZaty7"></path>
-            </defs>
-            <g>
-              <g>
-                <g>
-                  <use xlink:href="#b2k0V9iWvA" opacity="1" fill="#080808" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#b2k0V9iWvA" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-                <g>
-                  <use xlink:href="#f1JXrZaty7" opacity="1" fill="#080808" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#f1JXrZaty7" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_bottom">
-            <defs>
-              <path
-                d="M0 50L0 21.74C75.05 5.56 154.39 -0.72 238.01 2.9C280.31 4.73 327.34 9.24 379.1 16.43C469.6 29 561.69 23.42 650 0C650 0 650 0 650 0L650 50L0 50Z"
-                id="a2iGjTgE7h"></path>
-              <path
-                d="M654.36 290.04L654.36 261.78C579.31 245.59 499.97 239.31 416.34 242.93C374.05 244.77 327.02 249.28 275.26 256.47C184.76 269.04 92.67 263.45 4.36 240.04C4.36 240.04 4.36 240.04 4.36 240.04L4.36 290.04L654.36 290.04Z"
-                id="d4XDnVs8th"></path>
-            </defs>
-            <g>
-              <g>
-                <g>
-                  <use xlink:href="#a2iGjTgE7h" opacity="1" fill="#181818" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#a2iGjTgE7h" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-                <g>
-                  <use xlink:href="#d4XDnVs8th" opacity="1" fill="#181818" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#d4XDnVs8th" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </div>
-        <section class="col-xs-12 section_box_holder" id="kontakt">
-          <div class="section_box_right_border">
-            <h3 class="section_title" data-aos="animation-opacity">
-              Kontakt
-            </h3>
-            <div class="row section_contact justify-content-center">
-              <section class="col-xs-12 col-md-6">
-                <div class="organiser_details">
-                  <div class="organiser_img" id="organiser1" data-aos="animation-opacity"></div>
-                  <div class="organiser_name" data-aos="animation-opacity">
-                    Kinga Dymek
-                  </div>
-                  <h4 class="organiser_subtitle" data-aos="animation-opacity">
-                    Doradca ds. szkoleń otwartych,
-                    <br/>
-                    Ekspert ds. finansowych
-                  </h4>
-                  <div class="organiser_telephone" data-aos="animation-opacity">
-                    Telefon:
-                    <a href="tel:+48 530 612 226" class="contact_href">+48 530 612 226</a>
-                  </div>
-                  <div class="organiser_email" data-aos="animation-opacity">
-                    e-mail:
-                    <a href="mailto:k.dymek@sages.com.pl" class="contact_href">k.dymek@sages.com.pl</a>
-                  </div>
-                </div>
-              </section>
-              <section class="col-xs-12 col-md-6">
-                <div class="organiser_details">
-                  <div class="organiser_img" id="organiser2" data-aos="animation-opacity"></div>
-                  <div class="organiser_name" data-aos="animation-opacity">
-                    Edyta Wilgos
-                  </div>
-                  <h4 class="organiser_subtitle" data-aos="animation-opacity">
-                    Chief Product Officer
-                  </h4>
-                  <div class="organiser_telephone" data-aos="animation-opacity">
-                    Telefon:
-                    <a href="tel:+48 884 886 842" class="contact_href">+48 884 886 842</a>
-                  </div>
-                  <div class="organiser_email" data-aos="animation-opacity">
-                    e-mail:
-                    <a href="mailto:e.wilgos@sages.com.pl" class="contact_href">e.wilgos@sages.com.pl</a>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div class="contact_sages">
-              <a href="http://www.sages.com.pl/">
-                <img class="logo_sages" src="src/img/logosages.png" alt="logo sages" data-aos="animation-opacity" />
-              </a>
-              <p data-aos="animation-opacity">
-                ul. Nowogrodzka 62c
-                <br/>
-                02-002 Warszawa
-              </p>
-            </div>
-          </div>
-        </section>
-        <div class="col-xs-12 section_divider" id="section_divider4">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_top">
-            <defs>
-              <path
-                d="M0 184.78L0 156.52C75.05 140.34 154.39 134.06 238.01 137.68C280.31 139.51 327.34 144.03 379.1 151.21C469.6 163.78 561.69 158.2 650 134.78C650 134.78 650 134.78 650 134.78L650 184.78L0 184.78Z"
-                id="b2k0V9iWvA"></path>
-              <path
-                d="M650 0L650 28.26C574.95 44.44 495.61 50.72 411.99 47.1C369.69 45.27 322.66 40.76 270.9 33.57C180.4 21 88.31 26.58 0 50C0 50 0 50 0 50L0 0L650 0Z"
-                id="f1JXrZaty7"></path>
-            </defs>
-            <g>
-              <g>
-                <g>
-                  <use xlink:href="#b2k0V9iWvA" opacity="1" fill="#181818" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#b2k0V9iWvA" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-                <g>
-                  <use xlink:href="#f1JXrZaty7" opacity="1" fill="#181818" fill-opacity="1"></use>
-                  <g>
-                    <use xlink:href="#f1JXrZaty7" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
-                      stroke-opacity="1"></use>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </div>
+        </svg>
+      </header>
+      <nav class="navigation">
+        <ul class="navigation_ul slide-left">
+          <li>
+            <a href="#stronaglowna">Strona główna</a>
+          </li>
+          <li>
+            <a href="#program">Program</a>
+          </li>
+          <li>
+            <a href="#wykladowcy">Wykładowcy</a>
+          </li>
+          <li>
+            <a href="#referencje">Referencje</a>
+          </li>
+          <li>
+            <a href="#kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hamburger_menu">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
       </div>
-    </div>
-  </div>
-  <footer class="footer">
-    <p>&copy; 2019 Sages</p>
-  </footer>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="src/js/main.js"></script>
-</body>
+      <nav class="navigation_mobile">
+        <ul class="navigation_ul_center">
+          <li>
+            <a href="#stronaglowna">Strona główna</a>
+          </li>
+          <li>
+            <a href="#program">Program</a>
+          </li>
+          <li>
+            <a href="#wykladowcy">Wykładowcy</a>
+          </li>
+          <li>
+            <a href="#referencje">Referencje</a>
+          </li>
+          <li>
+            <a href="#kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <section class="col-xs-12 section_box_holder" id="program">
+            <div class="section_box_left_border">
+              <h3 class="section_title" data-aos="animation-opacity">
+                Dwudniowe szkolenia
+              </h3>
+              <p class="short_programme_description" data-aos="animation-opacity">Profesjonalny program rozwoju
+                kompetencji gwarantujący wzrost efektywności działań doświadczonych specjalistów / menedżerów IT</p>
+              <article class="programme_boxes_holder">
+                <div class="row">
+                  <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
+                    <a
+                      href="szkolenia/zarzadzanie_portfelem.html">
+                      <div class="box_programme">
+                        <div class="programme_box" id="programme_box_1">
+                          <div class="programme_box_color_bg"></div>
+                          <div class="col-sm-12 box_text_bg">
+                            <p class="col-xs-12 box_description">
+                              Zarządzanie portfelem inicjatyw biznesowych -
+                              holistyczne spojrzenie na zmiany w IT
+                            </p>
+                            <button class="col-xs-12 box_btn">Więcej</button>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </section>
+                  <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
+                    <a
+                      href="szkolenia/zarzadzanie_komunikacja.html">
+                      <div class="box_programme">
+                        <div class="programme_box" id="programme_box_2">
+                          <div class="programme_box_color_bg"></div>
+                          <div class="col-sm-12 box_text_bg">
+                            <p class="col-xs-12 box_description">
+                              Skuteczne zarządzanie komunikacją i przywództwo w
+                              projektach i programach IT
+                            </p>
+                            <button class="col-xs-12 box_btn">Więcej</button>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </section>
+                  <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
+                    <a
+                      href="szkolenia/myslenie_analityczne.html">
+                      <div class="box_programme">
+                        <div class="programme_box" id="programme_box_3">
+                          <div class="programme_box_color_bg"></div>
+                          <div class="col-sm-12 box_text_bg">
+                            <p class="col-xs-12 box_description">
+                              Techniki myślenia analitycznego i podejmowanie
+                              decyzji biznesowych w obszarze IT
+                            </p>
+                            <button class="col-xs-12 box_btn">Więcej</button>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </section>
+                  <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
+                    <a
+                      href="szkolenia/techniki_i_narzedzia_lean_it.html">
+                      <div class="box_programme">
+                        <div class="programme_box" id="programme_box_4">
+                          <div class="programme_box_color_bg"></div>
+                          <div class="col-sm-12 box_text_bg">
+                            <p class="col-xs-12 box_description">
+                              Praktyczne wykorzystanie technik i narzędzi Lean
+                              IT do rozwiązywania problemów
+                            </p>
+                            <button class="col-xs-12 box_btn">Więcej</button>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </section>
+                  <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
+                    <a href="szkolenia/motywacja_4_0.html">
+                      <div class="box_programme">
+                        <div class="programme_box" id="programme_box_5">
+                          <div class="programme_box_color_bg"></div>
+                          <div class="col-sm-12 box_text_bg">
+                            <p class="col-xs-12 box_description">
+                              Motywacja 4.0
+                            </p>
+                            <button class="col-xs-12 box_btn">Więcej</button>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </section>
+                  <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
+                    <a href="szkolenia/projektowanie_produktow_i_uslug_it.html">
+                      <div class="box_programme">
+                        <div class="programme_box" id="programme_box_6">
+                          <div class="programme_box_color_bg"></div>
+                          <div class="col-sm-12 box_text_bg">
+                            <p class="col-xs-12 box_description">
+                              Projektowanie innowacyjnych produktów i usług IT
+                            </p>
+                            <button class="col-xs-12 box_btn">Więcej</button>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </section>
+                  <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
+                    <a href="szkolenia/zarzadzanie_konfliktem.html">
+                      <div class="box_programme">
+                        <div class="programme_box" id="programme_box_7">
+                          <div class="programme_box_color_bg"></div>
+                          <div class="col-sm-12 box_text_bg">
+                            <p class="col-xs-12 box_description">
+                              Zarządzanie konfliktem
+                            </p>
+                            <button class="col-xs-12 box_btn">Więcej</button>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </section>
+                  <section class="col-xs-12 col-sm-6 col-md-4" data-aos="animation-opacity">
+                    <a href="szkolenia/od_kodera_do_managera.html">
+                      <div class="box_programme">
+                        <div class="programme_box" id="programme_box_8">
+                          <div class="programme_box_color_bg"></div>
+                          <div class="col-sm-12 box_text_bg">
+                            <p class="col-xs-12 box_description">
+                              Od Kodera do Managera
+                            </p>
+                            <button class="col-xs-12 box_btn">Więcej</button>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </section>
+                  <section class="col-xs-12 col-sm-12 col-md-4" data-aos="animation-opacity">
+                    <a href="szkolenia/budowanie_efektywnych_zespolow.html">
+                      <div class="box_programme">
+                        <div class="programme_box" id="programme_box_9">
+                          <div class="programme_box_color_bg"></div>
+                          <div class="col-sm-12 box_text_bg">
+                            <p class="col-xs-12 box_description">
+                              Budowanie efektywnych zespołów
+                            </p>
+                            <button class="col-xs-12 box_btn">Więcej</button>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </section>
+                </div>
+              </article>
+            </div>
+          </section>
+          <div class="col-xs-12 section_divider" id="section_divider1">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_top">
+              <defs>
+                <path
+                  d="M0 184.78L0 156.52C75.05 140.34 154.39 134.06 238.01 137.68C280.31 139.51 327.34 144.03 379.1
+                  151.21C469.6 163.78 561.69 158.2 650 134.78C650 134.78 650 134.78 650 134.78L650 184.78L0 184.78Z"
+                  id="b2k0V9iWvA"></path>
+                <path
+                  d="M650 0L650 28.26C574.95 44.44 495.61 50.72 411.99 47.1C369.69 45.27 322.66 40.76 270.9 33.57C180.4
+                  21 88.31 26.58 0 50C0 50 0 50 0 50L0 0L650 0Z"
+                  id="f1JXrZaty7"></path>
+              </defs>
+              <g>
+                <g>
+                  <g>
+                    <use xlink:href="#b2k0V9iWvA" opacity="1" fill="#080808" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#b2k0V9iWvA" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                  <g>
+                    <use xlink:href="#f1JXrZaty7" opacity="1" fill="#080808" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#f1JXrZaty7" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_bottom">
+              <defs>
+                <path
+                  d="M0 50L0 21.74C75.05 5.56 154.39 -0.72 238.01 2.9C280.31 4.73 327.34 9.24 379.1 16.43C469.6 29
+                  561.69 23.42 650 0C650 0 650 0 650 0L650 50L0 50Z"
+                  id="a2iGjTgE7h"></path>
+                <path
+                  d="M654.36 290.04L654.36 261.78C579.31 245.59 499.97 239.31 416.34 242.93C374.05 244.77 327.02 249.28
+                  275.26 256.47C184.76 269.04 92.67 263.45 4.36 240.04C4.36 240.04 4.36 240.04 4.36 240.04L4.36
+                  290.04L654.36 290.04Z"
+                  id="d4XDnVs8th"></path>
+              </defs>
+              <g>
+                <g>
+                  <g>
+                    <use xlink:href="#a2iGjTgE7h" opacity="1" fill="#181818" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#a2iGjTgE7h" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                  <g>
+                    <use xlink:href="#d4XDnVs8th" opacity="1" fill="#181818" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#d4XDnVs8th" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <section class="col-xs-12 section_box_holder" id="wykladowcy">
+            <div class="section_box_right_border">
+              <h3 class="section_title" data-aos="animation-opacity">
+                Wykładowcy
+              </h3>
+              <section class="col-xs-12 instructor_wrapper" id="instructor_wrapper_after">
+                <div class="row">
+                  <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
+                    <div class="instructor_img" id="instructor_1"></div>
+                  </div>
+                  <div class="col-xs-12 col-lg-8 about_instructor">
+                    <div class="instructor_name" id="llosin" data-aos="animation-opacity">
+                      Łukasz Łosin
+                    </div>
+                    <div class="instructor_description" data-aos="animation-opacity">
+                      Praktyk w dziedzinie zarządzania zespołem, analizie
+                      biznesowej oraz business development’cie i wykorzystaniu
+                      technik projektowania i wdrażania nowych produktów i
+                      usług. Przez ostatnie kilkanaście lat zdobywał
+                      doświadczenie w Polsce i zagranicą w projektach IT i nie
+                      tylko. Jest przekonany, że w dobie rynku pracownika
+                      wyzwaniem dla menedżera staje się ciągły rozwój swoich
+                      kompetencji oraz dobór odpowiednich narzędzi w celu
+                      utrzymania zaangażowania i efektywności swoich zespołów,
+                      czego uczył szkoląc zespoły projektowe i wytwórcze IT
+                      wielu banków, instytucji finansowych oraz firm doradczych.
+                      Opiekun merytoryczny i wykładowca na studiach
+                      podyplomowych „User Experience i projektowanie aplikacji,
+                      produktów i usług” w Wyższej Szkole Bankowej w Gdańsku
+                      oraz wykładowcy na Uniwersytecie Gdańskim z tematu
+                      "Psychologia przywództwa w organizacji". Współautor
+                      książki „Inżynieria wymagań”, wydanej przez PWN w 2018
+                      roku - w swym rozdziale skupił się nad problematyką
+                      organizacji pracy, podnoszenia efektywności i motywacji
+                      zespołów projektowo/programistycznych w Scrum.
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="col-xs-12 instructor_wrapper">
+                <div class="row">
+                  <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
+                    <div class="instructor_img" id="instructor_2"></div>
+                  </div>
+                  <div class="col-xs-12 col-lg-8 about_instructor">
+                    <div class="instructor_name" data-aos="animation-opacity">
+                      Martin Daliga
+                    </div>
+                    <div class="instructor_name_2" id="mdaliga" data-aos="animation-opacity">
+                      PhD, MBA, P2P, MsP, MoP, MoR, MoV, REQB, IBAQB, PO, PSM I.
+                    </div>
+                    <div class="instructor_description" data-aos="animation-opacity">
+                      Jako propagator przywództwa sytuacyjnego Kennetha
+                      Blancharda skutecznie zarządzał zespołami
+                      interdyscyplinarnymi. Na przestrzeni ostatnich kilkunastu
+                      lat pracował z zespołami realizującymi projekty o
+                      budżetach sięgających ponad 20 mln zł. Pełnił szereg
+                      funkcji i ról w największych przedsiębiorstwach m.in w
+                      Telekomunikacji Polskiej, Polkomtelu, Asseco Poland,
+                      Kolejowych Zakładach Łączności. W lutym 2017 roku został
+                      laureatem konkursu Biznesmen Roku 2016, organizowanego
+                      przez Izbę Przemysłowo-Handlową województwa
+                      Kujawsko-Pomorskiego. Nagroda jest uznaniem za wkład i
+                      osobiste zaangażowanie w rozwój samorządu gospodarczego
+                      Pomorza i Kujaw. Najbardziej dumny jest z udziału swojego
+                      zespołu w projektach związanych z optymalizacją procesów
+                      biznesowych i zwiększaniem ich konkurencyjności. Posiada
+                      ponad 10 letnią praktykę trenerską w kreowaniu wartości
+                      biznesowych i zarządzania ograniczeniami.
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="col-xs-12 instructor_wrapper">
+                <div class="row">
+                  <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
+                    <div class="instructor_img" id="instructor_3"></div>
+                  </div>
+                  <div class="col-xs-12 col-lg-8 about_instructor">
+                    <div class="instructor_name" data-aos="animation-opacity">
+                      Agata Fijewska
+                    </div>
+                    <div class="instructor_description" data-aos="animation-opacity">
+                      Psycholog, ukończyła Wyższą Szkołę Psychologii Społecznej; Trener, ukończyła Szkołę Treningu i
+                      Warsztatu Psychologicznego w Ośrodku Pomocy i Psychoedukacji Intra. Pracuje jako terapeuta
+                      indywidualny i grupowy. Specjalizuje się w prowadzeniu warsztatów umiejętności z zakresu
+                      komunikacji,współpracy grupowej, asertywność, radzenie sobie ze stresem, oraz twórczego myślenia.
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="col-xs-12 instructor_wrapper">
+                <div class="row">
+                  <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
+                    <div class="instructor_img" id="instructor_4"></div>
+                  </div>
+                  <div class="col-xs-12 col-lg-8 about_instructor">
+                    <div class="instructor_name" data-aos="animation-opacity">
+                      Sebastian Magda
+                    </div>
+                    <div class="instructor_description" data-aos="animation-opacity">
+                      Wieloletni praktyk zarządzania i trener z zakresu inżynierii wytwarzania oprogramowania, a w
+                      szczególności: zarządzania projektami IT oraz PMO, zapewniania jakości wytwarzania
+                      oprogramowania,testowania oprogramowania • Zarządzania zespołami, wdrożeniowiec oraz audytor CMMI
+                      Posiada unikalne doświadczenie międzynarodowe, pracował m.in. w: USA, UK, Belgii, Holandii,
+                      Hiszpanii, Portugalii, Indiach, RPA, Niemczech, Szwajcarii, Białorusi, Ukrainie, Gruzji. Jest
+                      jednym z nielicznych w Polsce praktyków i ekspertów CMMI. Ekspert w zakresie procesów
+                      korporacyjnych systemów zarządzania projektami i jakością, w szczególności z dziedziny IT.
+                      Wykwalifikowany członek zespołów audytujących metodologią SCAMPI. Posiadł certyfikat PMP kiedy
+                      egzaminowano jeszcze papierowo Posiada również inne certyfikaty techniczne, m.in. Oracle, Sybase,
+                      ITIL, a także przeszedł wiele szkoleń zakończonych egzaminami Software Engineering Institute w
+                      zakresie CMMI. Ma duże doświadczenie w prowadzeniu projektów międzynarodowych oraz łatwo nawiązuje
+                      kontakty międzyludzkie, posiada praktyczną wiedzę w pracy z różnymi kulturami. Mówi biegle 3
+                      językami obcymi. Od ponad 20 lat związany z produkcją oprogramowania w rolach od programisty do
+                      kierownika do spraw wdrożeń procesów i zapewniania jakości, poprzez role kierownika projektów czy
+                      inżyniera ds. zapewniania jakości, ostatnio pracował z sukcesem nad startupami oraz projektami
+                      czysto biznesowymi. Obecnie zajmuje się również konsultingiem, oraz szkoleniami. Jego
+                      niezaprzeczalnym atutem jest wyjątkowa skalowalność i praktyczna znajomość tematyki zarówno
+                      menadżerskiej jak i technicznej, a co za tym idzie, łatwość mapowania jej na modele i odwrotnie.
+                      Jako ciekawostkę można podać, iż posiada on kilkunastoletnie doświadczenie w prowadzeniu projektów
+                      technologicznych dla loterii narodowych w Hiszpanii, Portugalii, Rep. Haiti, Białorusi, Gruzji
+                      oraz Ukrainy. Z wykształcenia informatyk-programista, z zamiłowania humanista. Prywatnie uważa, że
+                      studia MBA powinny być wykładane na historii a nie w szkole biznesu, sam jest posiadaczem dyplomu
+                      MBA. Lubi dzielić się wiedzą i rozwiązywać nietuzinkowe problemy na pograniczu technologii i
+                      psychologii. Lubi szkolić oraz pomagać organizacjom jako niezależny konsultant.
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="col-xs-12 instructor_wrapper">
+                <div class="row">
+                  <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
+                    <div class="instructor_img" id="instructor_5"></div>
+                  </div>
+                  <div class="col-xs-12 col-lg-8 about_instructor">
+                    <div class="instructor_name" data-aos="animation-opacity">
+                      Bartosz Broda
+                    </div>
+                    <div class="instructor_description" data-aos="animation-opacity">
+                      Zarządza zespołami od ok. 7 lat. Zarządzał zespołami naukowymi (od 3-15 osób), koordynował pracę
+                      zespołów. Tematem przywództwa pasjonuje się od kilku lat. Obecnie pełni rolę kierownika zespołów i
+                      projektów w międzynarodowej korporacji. Oprócz doktoratu z informatyki, ukończył podyplomowe
+                      studium coachingu na SWPS, dzięki któremu poznał mechanizmy psychologiczne wpływające na
+                      zachowania ludzi i grupy. Uczestniczył w kilkunastu warsztatach związanych z przywództwem i
+                      kierowaniem zespołów.
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="col-xs-12 instructor_wrapper">
+                <div class="row">
+                  <div class="col-xs-12 col-lg-4" data-aos="animation-opacity">
+                    <!--<div class="instructor_img" id="instructor_6"></div>-->
+                  </div>
+                  <div class="col-xs-12 col-lg-8 about_instructor">
+                    <div class="instructor_name" data-aos="animation-opacity">
+                      Dominika Miodońska
+                    </div>
+                    <div class="instructor_description" data-aos="animation-opacity">
+                      Coach, trener rozwoju osobistego. Posiada dziesięcioletnie doświadczenie w biznesie, zdobywane na
+                      stanowiskach menadżerskich w działach sprzedaży oraz marketingu. W aspekcie zarządzania zespołami
+                      szczególnie interesuje się tematami komunikacji interpersonalnej, motywacji wewnętrznej,
+                      zaangażowania. Zagadnienia te były niejednokrotnie tematem pracy z pracownikami oraz klientami
+                      sesji coachingowych oraz uczestnikami warsztatów.
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+          <div class="col-xs-12 section_divider" id="section_divider2">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_top">
+              <defs>
+                <path
+                  d="M0 184.78L0 156.52C75.05 140.34 154.39 134.06 238.01 137.68C280.31 139.51 327.34 144.03 379.1
+                  151.21C469.6 163.78 561.69 158.2 650 134.78C650 134.78 650 134.78 650 134.78L650 184.78L0 184.78Z"
+                  id="b2k0V9iWvA"></path>
+                <path
+                  d="M650 0L650 28.26C574.95 44.44 495.61 50.72 411.99 47.1C369.69 45.27 322.66 40.76 270.9 33.57C180.4
+                  21 88.31 26.58 0 50C0 50 0 50 0 50L0 0L650 0Z"
+                  id="f1JXrZaty7"></path>
+              </defs>
+              <g>
+                <g>
+                  <g>
+                    <use xlink:href="#b2k0V9iWvA" opacity="1" fill="#181818" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#b2k0V9iWvA" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                  <g>
+                    <use xlink:href="#f1JXrZaty7" opacity="1" fill="#181818" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#f1JXrZaty7" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_bottom">
+              <defs>
+                <path
+                  d="M0 50L0 21.74C75.05 5.56 154.39 -0.72 238.01 2.9C280.31 4.73 327.34 9.24 379.1 16.43C469.6 29
+                  561.69 23.42 650 0C650 0 650 0 650 0L650 50L0 50Z"
+                  id="a2iGjTgE7h"></path>
+                <path
+                  d="M654.36 290.04L654.36 261.78C579.31 245.59 499.97 239.31 416.34 242.93C374.05 244.77 327.02 249.28
+                  275.26 256.47C184.76 269.04 92.67 263.45 4.36 240.04C4.36 240.04 4.36 240.04 4.36 240.04L4.36
+                  290.04L654.36 290.04Z"
+                  id="d4XDnVs8th"></path>
+              </defs>
+              <g>
+                <g>
+                  <g>
+                    <use xlink:href="#a2iGjTgE7h" opacity="1" fill="#080808" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#a2iGjTgE7h" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                  <g>
+                    <use xlink:href="#d4XDnVs8th" opacity="1" fill="#080808" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#d4XDnVs8th" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <section class="col-xs-12 section_box_holder" id="referencje">
+            <div class="section_box_left_border">
+              <h3 class="section_title" data-aos="animation-opacity">
+                Referencje
+              </h3>
+              <div class="row">
+                <div class="col-xs-12">
+                  <section class="references_details">
+                    <div class="references_name" data-aos="animation-opacity">
+                      ZETO SOFTWARE Sp. z o.o.
+                    </div>
+                    <h4 class="references_subtitle" data-aos="animation-opacity">
+                      Olsztyn, 13.05.2019
+                    </h4>
+                    <div class="references_description" data-aos="animation-opacity">
+                      „Współpraca z firmą Sages rozpoczęła się w ramach projektu
+                      „Akademia Menedżera IT". Usługa dotyczyła dedykowanego
+                      szkolenia pracowników ZETO Software z zakresu Zarządzania
+                      zespołem, komunikacji oraz motywacji. Szkolenie zostało
+                      dostosowane do naszych potrzeb i obejmowało najbardziej
+                      interesujące treści.
+                      <br />
+                      <br />
+                      Uczestnicy szkolenia - warsztatów poznali i przećwiczyli:
+                      <br />
+                      - w jaki sposób organizować pracę, delegować i wyceniać
+                      zadania, aby motywować zespół;
+                      <br />
+                      - metody lepszej komunikacji z zespołem i
+                      współpracownikami;
+                      <br />
+                      - jak wykorzystać elementy zwinnego zarządzania w celu
+                      poprawy motywacji, zaangażowania i kreatywności zespołu;
+                      <br />
+                      - jak tworzyć system motywacyjny w organizacji;
+                      <br />
+                      - jak wyznaczać cele możliwe do osiągnięcia uwzględniając
+                      charakterystykę zespołu.
+                      <br />
+                      <br />
+                      Szkolenie uzyskało z naszej strony wysokie noty, a to
+                      skutkowało decyzją rozszerzenia współpracy z firmą Sages.
+                      Na szczególne wyróżnienie zasługuje trener, pan Łukasz
+                      Łosin, który za każdym razem odznaczał się dogłębną
+                      znajomością tematu oraz wysokim zaangażowaniem.
+                      <br />
+                      <br />
+                      Sages jest wg nas firmą godną polecenia oraz gwarantuje
+                      partnerskie podejście do realizacji projektów."
+                      <br />
+                      <br />
+                      <span class="reference_author">Prezes Zarządu Agnieszka Władzińska</span>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-xs-12">
+                  <section class="references_details">
+                    <div class="references_name" data-aos="animation-opacity">
+                      ZETO SOFTWARE Sp. z o.o.
+                    </div>
+                    <h4 class="references_subtitle" data-aos="animation-opacity">
+                      Olsztyn, 13.05.2019
+                    </h4>
+                    <div class="references_description" data-aos="animation-opacity">
+                      „Współpraca z firmą Sages rozpoczęła się w ramach projektu
+                      „Akademia Menedżera IT". Usługa dotyczyła dedykowanego
+                      szkolenia pracowników ZETO Software z zakresu Zarządzania
+                      zespołem, komunikacji oraz motywacji. Szkolenie zostało
+                      dostosowane do naszych potrzeb i obejmowało najbardziej
+                      interesujące treści.
+                      <br />
+                      <br />
+                      Pozytywne doświadczenia oraz profesjonalne podejście firmy
+                      Sages przyczyniły się do zlecenia realizacji usługi
+                      wsparcia przy usprawnieniu procesów w wybranych działach
+                      ZETO Software. Projekt rozpoczęliśmy od rzetelnej analizy
+                      stanu obecnego, której wynikiem były wnioski,
+                      spostrzeżenia i sugestie wraz z rekomendacjami usprawnień
+                      i obszarów do doskonalenia. Trener — pan Łukasz Łosin — w
+                      trakcie dwudniowego wywiadu pozyskał komplet danych
+                      pozwalających na rzetelną ocenę jakości komunikacji
+                      pomiędzy poszczególnymi komórkami firmy oraz ich
+                      menedżerami.
+                      <br />
+                      <br />
+                      Współpracę oceniamy bardzo dobrze, a wyniki wywiadu w
+                      postaci precyzyjnych czynności zaradczych zostały wpisane
+                      do oficjalnej listy celów firmy ZETO Software na 2019 rok.
+                      Tym samym wnioski uzyskane przez trenera przełożyły się na
+                      zdefiniowanie mierzalnych celów firmy."
+                      <br />
+                      <br />
+                      <span class="reference_author">Prezes Zarządu Agnieszka Władzińska</span>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="col-xs-12 section_divider" id="section_divider3">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_top">
+              <defs>
+                <path
+                  d="M0 184.78L0 156.52C75.05 140.34 154.39 134.06 238.01 137.68C280.31 139.51 327.34 144.03 379.1
+                  151.21C469.6 163.78 561.69 158.2 650 134.78C650 134.78 650 134.78 650 134.78L650 184.78L0 184.78Z"
+                  id="b2k0V9iWvA"></path>
+                <path
+                  d="M650 0L650 28.26C574.95 44.44 495.61 50.72 411.99 47.1C369.69 45.27 322.66 40.76 270.9 33.57C180.4
+                  21 88.31 26.58 0 50C0 50 0 50 0 50L0 0L650 0Z"
+                  id="f1JXrZaty7"></path>
+              </defs>
+              <g>
+                <g>
+                  <g>
+                    <use xlink:href="#b2k0V9iWvA" opacity="1" fill="#080808" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#b2k0V9iWvA" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                  <g>
+                    <use xlink:href="#f1JXrZaty7" opacity="1" fill="#080808" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#f1JXrZaty7" opacity="1" fill-opacity="0" stroke="#080808" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_bottom">
+              <defs>
+                <path
+                  d="M0 50L0 21.74C75.05 5.56 154.39 -0.72 238.01 2.9C280.31 4.73 327.34 9.24 379.1 16.43C469.6 29
+                  561.69 23.42 650 0C650 0 650 0 650 0L650 50L0 50Z"
+                  id="a2iGjTgE7h"></path>
+                <path
+                  d="M654.36 290.04L654.36 261.78C579.31 245.59 499.97 239.31 416.34 242.93C374.05 244.77 327.02 249.28
+                  275.26 256.47C184.76 269.04 92.67 263.45 4.36 240.04C4.36 240.04 4.36 240.04 4.36 240.04L4.36
+                  290.04L654.36 290.04Z"
+                  id="d4XDnVs8th"></path>
+              </defs>
+              <g>
+                <g>
+                  <g>
+                    <use xlink:href="#a2iGjTgE7h" opacity="1" fill="#181818" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#a2iGjTgE7h" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                  <g>
+                    <use xlink:href="#d4XDnVs8th" opacity="1" fill="#181818" fill-opacity="1"></use>
+                    <g>
+                      <use xlink:href="#d4XDnVs8th" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
+                        stroke-opacity="1"></use>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <section class="col-xs-12 section_box_holder" id="kontakt">
+            <div class="section_box_right_border">
+              <h3 class="section_title" data-aos="animation-opacity">
+                Kontakt
+              </h3>
+              <div class="row section_contact justify-content-center">
+                <section class="col-xs-12 col-md-6">
+                  <div class="organiser_details">
+                    <div class="organiser_img" id="organiser1" data-aos="animation-opacity"></div>
+                    <div class="organiser_name" data-aos="animation-opacity">
+                      Kinga Dymek
+                    </div>
+                    <h4 class="organiser_subtitle" data-aos="animation-opacity">
+                      Doradca ds. szkoleń otwartych,
+                      <br/>
+                        Ekspert ds. finansowych
+                      </h4>
+                      <div class="organiser_telephone" data-aos="animation-opacity">
+                        Telefon:
+                        <a href="tel:+48 530 612 226" class="contact_href">+48 530 612 226</a>
+                      </div>
+                      <div class="organiser_email" data-aos="animation-opacity">
+                        e-mail:
+                        <a href="mailto:k.dymek@sages.com.pl" class="contact_href">k.dymek@sages.com.pl</a>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="col-xs-12 col-md-6">
+                    <div class="organiser_details">
+                      <div class="organiser_img" id="organiser2" data-aos="animation-opacity"></div>
+                      <div class="organiser_name" data-aos="animation-opacity">
+                        Edyta Wilgos
+                      </div>
+                      <h4 class="organiser_subtitle" data-aos="animation-opacity">
+                        Chief Product Officer
+                      </h4>
+                      <div class="organiser_telephone" data-aos="animation-opacity">
+                        Telefon:
+                        <a href="tel:+48 884 886 842" class="contact_href">+48 884 886 842</a>
+                      </div>
+                      <div class="organiser_email" data-aos="animation-opacity">
+                        e-mail:
+                        <a href="mailto:e.wilgos@sages.com.pl" class="contact_href">e.wilgos@sages.com.pl</a>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="contact_sages">
+                  <a href="http://www.sages.com.pl/">
+                    <img class="logo_sages" src="src/img/logosages.png" alt="logo sages" data-aos="animation-opacity" />
+                  </a>
+                  <p data-aos="animation-opacity">
+                    ul. Nowogrodzka 62c
+                    <br/>
+                      02-002 Warszawa
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <div class="col-xs-12 section_divider" id="section_divider4">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  preserveAspectRatio="xMidYMid meet" viewBox="0 0 650 50" width="650" height="50" class="divider_top">
+                  <defs>
+                    <path
+                      d="M0 184.78L0 156.52C75.05 140.34 154.39 134.06 238.01 137.68C280.31 139.51 327.34 144.03 379.1
+                      151.21C469.6 163.78 561.69 158.2 650 134.78C650 134.78 650 134.78 650 134.78L650 184.78L0 184.78Z"
+                      id="b2k0V9iWvA"></path>
+                    <path
+                      d="M650 0L650 28.26C574.95 44.44 495.61 50.72 411.99 47.1C369.69 45.27 322.66 40.76 270.9
+                      33.57C180.4 21 88.31 26.58 0 50C0 50 0 50 0 50L0 0L650 0Z"
+                      id="f1JXrZaty7"></path>
+                  </defs>
+                  <g>
+                    <g>
+                      <g>
+                        <use xlink:href="#b2k0V9iWvA" opacity="1" fill="#181818" fill-opacity="1"></use>
+                        <g>
+                          <use xlink:href="#b2k0V9iWvA" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
+                            stroke-opacity="1"></use>
+                        </g>
+                      </g>
+                      <g>
+                        <use xlink:href="#f1JXrZaty7" opacity="1" fill="#181818" fill-opacity="1"></use>
+                        <g>
+                          <use xlink:href="#f1JXrZaty7" opacity="1" fill-opacity="0" stroke="#181818" stroke-width="1"
+                            stroke-opacity="1"></use>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <p>&copy; 2019 Sages</p>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="src/js/main.js"></script>
+      </body>
 
-</html>
+    </html>
