@@ -49,6 +49,7 @@ button:focus {
   background-image: url("https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-filter: brightness(0.35) grayscale(1);
   filter: brightness(0.35) grayscale(1);
   height: 100%;
   width: 100%;
@@ -116,6 +117,11 @@ button:focus {
   margin: 0;
 }
 
+.second_date {
+  font-size: 20px;
+  display: block;
+}
+
 .additional_info_description {
   color: #74747c;
   text-align: center;
@@ -145,6 +151,7 @@ button:focus {
 .additional_info_cities a {
   text-decoration: none;
   color: #fafafa;
+  -webkit-transition: 0.1s ease-in;
   transition: 0.1s ease-in;
 }
 
@@ -245,10 +252,12 @@ button:focus {
 }
 
 .menu ul li:hover {
+  -webkit-box-shadow: 0px -2px 0px #757577 inset;
   box-shadow: 0px -2px 0px #757577 inset;
 }
 
 .underline {
+  -webkit-box-shadow: 0px -2px 0px #4ea0c1 inset;
   box-shadow: 0px -2px 0px #4ea0c1 inset;
 }
 
