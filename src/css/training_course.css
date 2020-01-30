@@ -331,6 +331,18 @@ button:focus {
   margin: 0;
 }
 
+.contact_us_term_btn {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #2c9dee;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
 @media only screen and (max-width: 991px) {
   .additional_info_bigger {
     font-size: 40px;
